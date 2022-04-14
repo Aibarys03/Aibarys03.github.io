@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(228, 113, 42);
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+.text{
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 113, 42);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    left: 525px;
+    top: 35px;
+    
+    position:absolute;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logol{
+    position:absolute;
+    width: 500px;
+    padding: 0;
+    margin: 0;
+    top: -170px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Standart-shapka{
+    background-color: rgb(230, 82, 82);
+    color: white;
+    position: absolute;
+    width: 350px;
+    left: 120px;
+    height: 250px;
+    top: 200px;
+    box-sizing: border-box;
+    padding-top: 45px;
+    padding-left: 65px;
+    margin: 0;
+    font-size: 40px;
+    border-radius: 20px;
+    
+   
+}
+.Standart-footer{
+    position: absolute;
+    background-color: antiquewhite;
+    width: 350px;
+    left: 120px;
+    top: 420px;
+    height: 200px;
+    font-size: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+.button-first{
+    position:absolute;
+    left: 240px;
+    top: 565px;
+    border-radius: 30px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-first-but{
+    font-size: 25px;
+    border-radius:  5px;
 }
 
-.App-link {
-  color: #61dafb;
+.Silver-shapka{
+    background-color: rgba(8, 182, 225, 0.979);
+    color: white;
+    position: absolute;
+    width: 350px;
+    left: 595px;
+    height: 250px;
+    top: 200px;
+    box-sizing: border-box;
+    padding-top: 45px;
+    padding-left: 60px;
+    margin: 0;
+    font-size: 40px;
+    border-radius: 20px;
+    
+}
+.Silver-footer{
+    position: absolute;
+    background-color: antiquewhite;
+    width: 350px;
+    left: 595px;
+    top: 420px;
+    height: 200px;
+    font-size: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.button-second{
+    position:absolute;
+    left: 720px;
+    top: 565px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-second-but{
+    font-size: 25px;
+    border-radius:  5px;
+}
+li{
+    list-style-type: none;
+}
+
+
+.Professional-shapka{
+    background-color: rgba(203, 187, 12, 0.979);
+    color: white;
+    position: absolute;
+    width: 350px;
+    left: 1080px;
+    height: 250px;
+    top: 200px;
+    box-sizing: border-box;
+    padding-top: 45px;
+    padding-left: 45px;
+    margin: 0;
+    font-size: 40px;
+    border-radius: 20px;
+    
+}
+.Professional-footer{
+    position: absolute;
+    background-color: antiquewhite;
+    width: 350px;
+    left: 1080px;
+    top: 420px;
+    height: 200px;
+    font-size: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.button-third{
+    position:absolute;
+    left: 1200px;
+    top: 565px;
+
+}
+
+.button-third-but{
+    font-size: 25px;
+    border-radius:  5px;
+}
+li{
+    list-style-type: none;
+}
+
+.footer{
+    background-color:   antiquewhite;
+    color: white;
+    width: 100%;
+    height: 50px;
+    top: 680px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts{
+    font-size: 30px;
+    width: 200px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 5px;
+    color: black;
+    
+}
+.number{
+    width: 100px;
+    position: absolute;
+    left: 120px;
+    font-size: 20px;
+    top: 14px;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.address{
+    width:400px;
+    position: absolute;
+    font-size: 20px;
+    left: 300px;
+    margin: 0;
+    padding: 0;
+    top: 12px;
+    color: black;
 }
